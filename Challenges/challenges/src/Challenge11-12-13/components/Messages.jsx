@@ -28,8 +28,8 @@ export default function Messages() {
 
       <ul className="mt-4 space-y-2">
         {messages.map((message) => (
-          <li key={message.id} className="border p-2">
-            <span>{message.text}</span>
+          <li key={message.id} className="border p-2  text-white">
+            <span className=' text-white'>{message.text}</span>
           </li>
         ))}
       </ul>
@@ -39,7 +39,7 @@ export default function Messages() {
           type="text"
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
-          className="border p-2 w-full"
+          className="border p-2 w-full  text-white"
           placeholder="Escribe un mensaje..."
         />
         <button type="submit" className="mt-2 bg-blue-600 text-white px-3 py-1 rounded">

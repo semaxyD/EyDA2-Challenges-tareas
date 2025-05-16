@@ -30,19 +30,19 @@ export default function Login() {
 
   return (
     <div className="p-6 max-w-md mx-auto bg-black rounded-xl shadow-md space-y-4">
-      <h2 className="text-xl font-bold text-center">Login</h2>
+      <h2 className="text-xl font-bold text-center text-white">Login</h2>
       <form onSubmit={handleLogin} className="space-y-3">
         <input
           type="email"
           placeholder="Email"
-          className="w-full p-2 border rounded"
+          className="w-full p-2 border rounded  text-white"
           onChange={(e) => setEmail(e.target.value)}
           required
         />
         <input
           type="password"
           placeholder="Password"
-          className="w-full p-2 border rounded"
+          className="w-full p-2 border rounded  text-white"
           onChange={(e) => setPassword(e.target.value)}
           required
         />

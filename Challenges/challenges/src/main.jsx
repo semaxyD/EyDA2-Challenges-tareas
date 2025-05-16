@@ -11,6 +11,10 @@ import App8 from './Challenge8/App8.jsx'
 import App9 from './Challenge9/App9.jsx'
 import App10 from './Challenge10/App10.jsx'
 import App11 from './Challenge11-12-13/app/App11.jsx'
+import App14 from './Challenge14/App14.jsx'
+import App15 from './Challenge15/App15.jsx'
+import App16 from './Challenge16/App16.jsx'
+import App17 from './Challange17 En base al 14/App17.jsx'
 import { AuthProvider } from "./Challenge6/AuthContext";
 import { Provider } from "react-redux";
 import {store} from "./Challenge10/redux/store.js"
@@ -34,9 +38,45 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 */
 
-//Challenge 11
+/*
+//Challenge 11-12-13
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App11/>
   </React.StrictMode>
 );
+*/
+
+/*
+//Challenge 14
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+      <App14/>
+    </React.StrictMode>
+  );
+*/
+
+/*
+//Challenge 15
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+      <App15/>
+    </React.StrictMode>
+  );
+  */
+
+/*
+//Challenge 16
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+      <App16/>
+    </React.StrictMode>
+  );
+  */
+
+//Challenge 17 basado en el 14
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+      <App17/>
+    </React.StrictMode>
+  );

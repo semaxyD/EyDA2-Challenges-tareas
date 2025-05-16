@@ -12,12 +12,16 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.1",
     "@tailwindcss/vite": "^4.1.6",
+    "d3-force": "^3.0.0",
     "firebase": "^11.7.1",
     "prop": "^0.1.0",
     "react": "^19.0.0",
+    "react-d3-graph": "^2.6.0",
+    "react-d3-tree": "^3.6.6",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.6.0",
+    "sass": "^1.89.0",
     "tailwindcss": "^4.1.6",
     "types": "^0.1.1"
   },

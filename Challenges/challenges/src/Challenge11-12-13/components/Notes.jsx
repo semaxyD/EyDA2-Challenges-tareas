@@ -27,7 +27,7 @@ export default function Notes() {
         <input 
           value={newNote} 
           onChange={(e) => setNewNote(e.target.value)} 
-          className="border p-2" 
+          className="border p-2  text-white" 
           placeholder="Escribe una nueva nota"
         />
         <button className="ml-2 bg-blue-600 text-white px-3 py-1 rounded">Agregar</button>
@@ -40,8 +40,8 @@ export default function Notes() {
       {/* Lista de notas */}
       <ul className="mt-4 space-y-2">
         {notes.map(note => (
-          <li key={note.id} className="border p-2 flex justify-between items-center">
-            <span>{note.text}</span>
+          <li key={note.id} className="border p-2 flex justify-between items-center  text-white">
+            <span className=' text-white'>{note.text}</span>
             <div className="space-x-2">
               <button 
                 onClick={() => {
